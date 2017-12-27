@@ -12,9 +12,7 @@ refined_est(train,validation,test,beta);
 %Output: optimal beta, optimal lambda, estimation error and prediction
 %        error. 
 function [bestBeta] = lasso_wrapper(train,validation,test,beta)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%         Your Code Starts Here         %%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 
 %ridge regression normally solves the B that minimizes (||y - XB|| + L||B||
